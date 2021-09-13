@@ -1,5 +1,12 @@
 # Urban Computing Assignment 1
-This repository contains the first assignment for the Urban Computing course in fall 2021. The excersizes can be found in *"Lab1_Exercises.ipynb"*, but before we can work on them we need to setup the environment that we will use during this year's edition of the course. We will use the same method of working throughout the course.
+This repository contains the first assignment for the Urban Computing course in fall 2021. The excersizes can be found in *"Assignment1_Exercises.ipynb"*, to hand in your work you need to push it to GitClassroom. This can be done by executing the following commands:
+git add .
+git commit -m "Commit message here"
+git push
+
+Please check afterwards if the latest version of the code is acutally pushed to the github classroom.
+
+
 
 We will be working in *development containers* that are completely isolated from your system's OS and software. One of the benefits of this approach is that you won't have to install any languages and dependencies on your machine and that everyone uses the exact same environment. This will benefit reproducibility and allows us to work cross-platform effortlessly.
 
