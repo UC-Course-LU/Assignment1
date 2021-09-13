@@ -1,0 +1,8 @@
+pandas
+numpy
+notebook
+matplotlib
+openrouteservice
+folium
+foursquare
+line_profiler

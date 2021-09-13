@@ -1,0 +1,46 @@
+# Urban Computing Assignment 1
+This repository contains the first assignment for the Urban Computing course in fall 2021. The excersizes can be found in *"Lab1_Exercises.ipynb"*, but before we can work on them we need to setup the environment that we will use during this year's edition of the course. We will use the same method of working throughout the course.
+
+We will be working in *development containers* that are completely isolated from your system's OS and software. One of the benefits of this approach is that you won't have to install any languages and dependencies on your machine and that everyone uses the exact same environment. This will benefit reproducibility and allows us to work cross-platform effortlessly.
+
+
+## Installation
+We will be using Visual Studio Code (VS Code) as IDE. The container development functionality of VS Code provides us better reproducibility and will help tremendously in running the code on different machines without effort.
+
+Steps to create our working environment:
+- Make sure you have [Docker](https://docs.docker.com/get-docker/) installed on your system.
+    - If you are running Linux, make sure to follow the additional post-installation step [Manage Docker as a non-root user](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user).
+- Make sure you have [VS Code](https://code.visualstudio.com/) installed on your system.
+- Clone and open this repository in VS Code.
+- Click on the extensions icon in the toolbar: ![Extensions icon](docs/extensions.png).
+- Search for the *"Remote Development"* extension and press the install button ![Install button](docs/install.png).
+- (Optional) Search for the *"Docker"* extension and install this extension. It allows you to manage containers from within VS Code.
+- You should now be able to see the *"Open a Remote Window"* ![Remote Window](docs/remote-window.png) button in the bottom left corner.
+- Click this button and select *"Reopen in Container"*.
+- The container will now be build, which might take a while for the first time.
+- After the container is built, VS Code will be running within the container.
+    - You can check if VS Code is running within the container in the bottom left corner. It should say *"Dev Container: Python 3"*.
+
+Your can now open the notebook *"Lab1_Exercises.ipynb"* and start working on your assignment.
+
+## Tips
+- You can install additional Python packages while within the Python container through: `pip install <your package>`.
+- A light VS Code theme might be preferred while working with Python notebooks
+    - To change themes: File -> Preferences -> Color Theme
+
+## References
+### Development Containers
+- [Beginner's Series to Dev Containers](https://www.youtube.com/watch?v=61M2takIKl8&list=PLj6YeMhvp2S5G_X6ZyMc8gfXPMFPg3O31) on Youtube
+
+### Numpy & Pandas
+- [Cloud X Lab - introduction to Numpy and Pandas](https://cloudxlab.com/blog/numpy-pandas-introduction/)
+- [Zero With Dot - Performance of numpy and pandas - comparison](https://zerowithdot.com/python-numpy-and-pandas-performance/)
+- [Sofia Heisler - A Beginner’s Guide to Optimizing Pandas Code for Speed](https://engineering.upside.com/a-beginners-guide-to-optimizing-pandas-code-for-speed-c09ef2c6a4d6) basic optimization techniques, see also her PyCon 2017 talk on [YouTube](https://www.youtube.com/watch?v=HN5d490_KKk).
+- [Pandas - Enhancing Performance](https://pandas.pydata.org/pandas-docs/stable/user_guide/enhancingperf.html) deeper enhancement techniques
+- [Numexpr](https://github.com/pydata/numexpr) easily speed up more complex numpy operations
+- [Real Python - Look Ma, No For-Loops: Array Programming With NumPy](https://realpython.com/numpy-array-programming/) a somewhat easier introduction to vectorization
+- [Python Like You Mean It - Vectorized Operations](https://www.pythonlikeyoumeanit.com/Module3_IntroducingNumpy/VectorizedOperations.html) a bit more advanced text about vectorization
+
+### Matplotlib
+- [Real Python - Python Plotting With Matplotlib (Guide)](https://realpython.com/python-matplotlib-guide/)
+- [Practical Business Python - Effectively Using Matplotlib](https://pbpython.com/effective-matplotlib.html)
