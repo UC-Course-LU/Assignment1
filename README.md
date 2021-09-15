@@ -27,6 +27,7 @@ Steps to create our working environment:
 - The container will now be build, which might take a while for the first time.
 - After the container is built, VS Code will be running within the container.
     - You can check if VS Code is running within the container in the bottom left corner. It should say *"Dev Container: Python 3"*.
+- Reload VS Code to activate linters and formatters: Ctrl/Cmd+Shift+P -> Developer: Reload Window. Alternatively, you can just close and reopen VS Code.
 
 Your can now open the notebook *"Lab1_Exercises.ipynb"* and start working on your assignment.
 
@@ -34,7 +35,7 @@ Your can now open the notebook *"Lab1_Exercises.ipynb"* and start working on you
 The repository must be pushed to the GitHub classroom before **October 5th, at 23:55**. The code must run without issues after we create the development container. This means that any pip packages that are required to run your notebook must be included in the *"requirements.txt"* file.
 
 Follow these steps to make sure all pip dependencies are correctly included:
-- Make sure VS Code is running within the development container (see last step at *"Installation"*).
+- Make sure VS Code is running within the development container (see next to last step at *"Installation"*).
 - Open the VS Code integrated terminal (Ctrl+`).
 - Execute: `pip freeze > requirements.txt`.
     - `pip freeze` will print all currently installed pip packages with their version number pinned. `> requirements.txt` will redirect the output to a file (in this case *"requirements.txt"*).
