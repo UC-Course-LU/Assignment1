@@ -5,7 +5,7 @@ git add .
 git commit -m "Commit message here"
 git push
 ```
-Please check afterwards if the latest version of the code is acutally pushed to the GitHub classroom.
+Please check afterwards if the latest version of the code is actually pushed to the GitHub classroom.
 
 
 
