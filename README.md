@@ -1,5 +1,5 @@
 ﻿# Urban Computing Assignment 1
-This repository contains the first assignment for the Urban Computing course in fall 2023. The excersises can be found in *"Assignment1_Exercises.ipynb"*, to hand in your work you need to push it to GitHub classroom. You can do this via the build-in Git interface of VS Code, or by executing the following commands:
+This repository contains the first assignment for the Urban Computing course in fall 2024. The excersises can be found in *"Assignment1_Exercises.ipynb"*, to hand in your work you need to push it to GitHub classroom. You can do this via the build-in Git interface of VS Code, or by executing the following commands:
 ```bash
 git add .
 git commit -m "Commit message here"
