@@ -33,8 +33,7 @@ Steps to create our working environment:
 Your can now open the notebook *"Lab1_Exercises.ipynb"* and start working on your assignment.
 
 ## Submission procedure
-The repository must be pushed to the GitHub classroom before **October 3th, at 23:55
-**. The code must run without issues after we create the development container. This means that any pip packages that are required to run your notebook must be included in the *"requirements.txt"* file.
+The repository must be pushed to the GitHub classroom before **October 3th, at 23:55**. The code must run without issues after we create the development container. This means that any pip packages that are required to run your notebook must be included in the *"requirements.txt"* file.
 
 Follow these steps to make sure all pip dependencies are correctly included:
 - Make sure VS Code is running within the development container (see next to last step at *"Installation"*).
