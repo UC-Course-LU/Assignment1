@@ -1,5 +1,5 @@
 ﻿# Urban Computing Assignment 1
-This repository contains the first assignment for the Urban Computing course in fall 2024. The excersises can be found in *"Assignment1_Exercises.ipynb"*, to hand in your work you need to push it to GitHub classroom. You can do this via the build-in Git interface of VS Code, or by executing the following commands:
+This repository contains the first assignment for the Urban Computing course in fall 2025. The excersises can be found in *"Assignment1_Exercises.ipynb"*, to hand in your work you need to push it to GitHub classroom. You can do this via the build-in Git interface of VS Code, or by executing the following commands:
 ```bash
 git add .
 git commit -m "Commit message here"
@@ -33,7 +33,7 @@ Steps to create our working environment:
 Your can now open the notebook *"Lab1_Exercises.ipynb"* and start working on your assignment.
 
 ## Submission procedure
-The repository must be pushed to the GitHub classroom before **October 3th, at 23:55**. The code must run without issues after we create the development container. This means that any pip packages that are required to run your notebook must be included in the *"requirements.txt"* file.
+The repository must be pushed to the GitHub classroom before **September 30th, at 23:55**. The code must run without issues after we create the development container. This means that any pip packages that are required to run your notebook must be included in the *"requirements.txt"* file.
 
 Follow these steps to make sure all pip dependencies are correctly included:
 - Make sure VS Code is running within the development container (see next to last step at *"Installation"*).
@@ -70,3 +70,4 @@ You can now push the final version of your assignment to the GitHub classroom.
 ## Matplotlib
 - [Real Python - Python Plotting With Matplotlib (Guide)](https://realpython.com/python-matplotlib-guide/)
 - [Practical Business Python - Effectively Using Matplotlib](https://pbpython.com/effective-matplotlib.html)
+
