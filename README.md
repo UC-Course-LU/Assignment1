@@ -7,6 +7,8 @@ git push
 ```
 Please check afterwards if the latest version of the code is actually pushed to the GitHub classroom.
 
+### To access LIACS Servers
+In case you are unable to set it up in your local system, you can also access [liacs servers](https://rel.liacs.nl/issc/ssh-access). Please download the config.
 
 
 We will be working in *development containers* that are completely isolated from your system's OS and software. One of the benefits of this approach is that you won't have to install any languages and dependencies on your machine and that everyone uses the exact same environment. This will benefit reproducibility and allows us to work cross-platform effortlessly.
@@ -70,4 +72,5 @@ You can now push the final version of your assignment to the GitHub classroom.
 ## Matplotlib
 - [Real Python - Python Plotting With Matplotlib (Guide)](https://realpython.com/python-matplotlib-guide/)
 - [Practical Business Python - Effectively Using Matplotlib](https://pbpython.com/effective-matplotlib.html)
+
 
