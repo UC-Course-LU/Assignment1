@@ -32,7 +32,7 @@ Host U0065011 U0065030 U0065031 U00650**
 # These servers are more likely to be used by several students at the same time for labs
 # or thesis purposes so your tasks may be delayed. 
 # Please respect your fellow students and don't abuse these servers.
-# 
+# Please note that if you use the below liacs servers, always create your working directory inside local i.e /local. Because in home directory, you are given less space.
 
 Host liacs
     HostName ssh.liacs.nl
