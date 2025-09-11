@@ -7,25 +7,6 @@ git push
 ```
 Please check afterwards if the latest version of the code is actually pushed to the GitHub classroom.
 
-### SSH Setup and Server Access Guide
-In case you are unable to set it up in your local system, you can also access [liacs servers](https://rel.liacs.nl/issc/ssh-access). Please download the config.
-#### 1. Download the SSH Config File
-> Make sure your downloaded config file includes your **user ID** as mentioned in the comments.
-#### 2. Move the Config File to Your SSH Folder
-> Open Terminal and run:
-> ```bash
-> cp ~/Downloads/config ~/.ssh/config
-> ```
-#### 3. give permission to SSH 
-> ```bash
-> chmod 600 ~/.ssh/config
-> chmod 700 ~/.ssh
-> ```
-#### 4. Connect to the server (example below)
-> ```
-> ssh U0065003
-> ```
-
 
 ## Docker and Visual Studio
 We will be working in *development containers* that are completely isolated from your system's OS and software. One of the benefits of this approach is that you won't have to install any languages and dependencies on your machine and that everyone uses the exact same environment. This will benefit reproducibility and allows us to work cross-platform effortlessly.
@@ -50,6 +31,26 @@ Steps to create our working environment:
 > - Reload VS Code to activate linters and formatters: Ctrl/Cmd+Shift+P -> Developer: Reload Window. Alternatively, you can just close and reopen VS Code.
 > 
 > Your can now open the notebook *"Lab1_Exercises.ipynb"* and start working on your assignment.
+
+### SSH Setup and Server Access Guide
+In case you are unable to set it up in your local system with docker, you can also access [liacs servers](https://rel.liacs.nl/issc/ssh-access). Make sure to properly update your requirements file with the python version as per docker's.
+#### 1. Download the SSH Config File
+> Make sure your downloaded config file includes your **user ID** as mentioned in the comments.
+#### 2. Move the Config File to Your SSH Folder
+> Open Terminal and run:
+> ```bash
+> cp config ~/.ssh/config
+> ```
+#### 3. give permission to SSH 
+> ```bash
+> chmod 600 ~/.ssh/config
+> chmod 700 ~/.ssh
+> ```
+#### 4. Connect to the server (example below)
+Here you will be asked  twice for your password because it has to jump through main liacs server and then your suitable machine (do not panic, just give in your brightspace password)
+> ```
+> ssh U0065003
+> ```
 
 ## Submission procedure
 
@@ -90,6 +91,7 @@ You can now push the final version of your assignment to the GitHub classroom.
 ## Matplotlib
 > - [Real Python - Python Plotting With Matplotlib (Guide)](https://realpython.com/python-matplotlib-guide/)
 > - [Practical Business Python - Effectively Using Matplotlib](https://pbpython.com/effective-matplotlib.html)
+
 
 
 
