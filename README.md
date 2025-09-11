@@ -12,7 +12,6 @@ Please check afterwards if the latest version of the code is actually pushed to 
 > #### SSH Setup Guide
 #### 1. Download the SSH Config File
 > Make sure your downloaded config file includes your **user ID** as mentioned in the comments.
-> ---
 #### 2. Move the Config File to Your SSH Folder
 > Open Terminal and run:
 > ```bash
@@ -91,6 +90,7 @@ Please check afterwards if the latest version of the code is actually pushed to 
 ## Matplotlib
 > - [Real Python - Python Plotting With Matplotlib (Guide)](https://realpython.com/python-matplotlib-guide/)
 > - [Practical Business Python - Effectively Using Matplotlib](https://pbpython.com/effective-matplotlib.html)
+
 
 
 
