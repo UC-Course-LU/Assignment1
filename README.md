@@ -22,7 +22,7 @@ Please check afterwards if the latest version of the code is actually pushed to 
 > chmod 600 ~/.ssh/config
 > chmod 700 ~/.ssh
 > ```
-#### 4. Connect to the server
+#### 4. Connect to the server (example below)
 > ```
 > ssh U0065003
 > ```
@@ -90,6 +90,7 @@ Please check afterwards if the latest version of the code is actually pushed to 
 ## Matplotlib
 > - [Real Python - Python Plotting With Matplotlib (Guide)](https://realpython.com/python-matplotlib-guide/)
 > - [Practical Business Python - Effectively Using Matplotlib](https://pbpython.com/effective-matplotlib.html)
+
 
 
 
