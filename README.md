@@ -28,13 +28,13 @@ In case you are unable to set it up in your local system, you can also access [l
 
 
 ## Docker and Visual Studio
-> We will be working in *development containers* that are completely isolated from your system's OS and software. One of the benefits of this approach is that you won't have to install any languages and dependencies on your machine and that everyone uses the exact same environment. This will benefit reproducibility and allows us to work cross-platform effortlessly.
-> 
-> 
+We will be working in *development containers* that are completely isolated from your system's OS and software. One of the benefits of this approach is that you won't have to install any languages and dependencies on your machine and that everyone uses the exact same environment. This will benefit reproducibility and allows us to work cross-platform effortlessly.
+
+
 ## Installation
-> We will be using Visual Studio Code (VS Code) as IDE. The container development functionality of VS Code provides us better reproducibility and will help tremendously in running the code on different machines without effort.
-> 
-> Steps to create our working environment:
+We will be using Visual Studio Code (VS Code) as IDE. The container development functionality of VS Code provides us better reproducibility and will help tremendously in running the code on different machines without effort.
+
+Steps to create our working environment:
 > - Make sure you have [Docker](https://docs.docker.com/get-docker/) installed on your system.
 >     - If you are running Linux, make sure to follow the additional post-installation step [Manage Docker as a non-root user](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user).
 > - Make sure you have [VS Code](https://code.visualstudio.com/) installed on your system.
@@ -90,6 +90,7 @@ You can now push the final version of your assignment to the GitHub classroom.
 ## Matplotlib
 > - [Real Python - Python Plotting With Matplotlib (Guide)](https://realpython.com/python-matplotlib-guide/)
 > - [Practical Business Python - Effectively Using Matplotlib](https://pbpython.com/effective-matplotlib.html)
+
 
 
 
