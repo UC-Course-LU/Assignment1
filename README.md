@@ -8,25 +8,25 @@ git push
 Please check afterwards if the latest version of the code is actually pushed to the GitHub classroom.
 
 ### To access LIACS Servers
-In case you are unable to set it up in your local system, you can also access [liacs servers](https://rel.liacs.nl/issc/ssh-access). Please download the config.
-#### SSH Setup Guide
-##### 1. Download the SSH Config File
-Make sure your downloaded config file includes your **user ID** as mentioned in the comments.
----
-##### 2. Move the Config File to Your SSH Folder
-Open Terminal and run:
-```bash
-cp ~/Downloads/config ~/.ssh/config
-```
-##### 3. give permission to SSH 
-```bash
-chmod 600 ~/.ssh/config
-chmod 700 ~/.ssh
-```
-##### 4. Connect to the server
-```
-ssh U0065003
-```
+    In case you are unable to set it up in your local system, you can also access [liacs servers](https://rel.liacs.nl/issc/ssh-access). Please download the config.
+    #### SSH Setup Guide
+    ##### 1. Download the SSH Config File
+    Make sure your downloaded config file includes your **user ID** as mentioned in the comments.
+    ---
+    ##### 2. Move the Config File to Your SSH Folder
+    Open Terminal and run:
+    ```bash
+    cp ~/Downloads/config ~/.ssh/config
+    ```
+    ##### 3. give permission to SSH 
+    ```bash
+    chmod 600 ~/.ssh/config
+    chmod 700 ~/.ssh
+    ```
+    ##### 4. Connect to the server
+    ```
+    ssh U0065003
+    ```
 
 
 ## Docker and Visual Studio
@@ -91,6 +91,7 @@ You can now push the final version of your assignment to the GitHub classroom.
 ## Matplotlib
 - [Real Python - Python Plotting With Matplotlib (Guide)](https://realpython.com/python-matplotlib-guide/)
 - [Practical Business Python - Effectively Using Matplotlib](https://pbpython.com/effective-matplotlib.html)
+
 
 
 
