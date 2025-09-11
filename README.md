@@ -1,5 +1,4 @@
 ﻿# Urban Computing Assignment 1
-### Add your solutions in <student_id>.ipynb in the repository. 
 
 This repository contains the first assignment for the Urban Computing course in fall 2025. The excersises can be found in *"Assignment1_Exercises.ipynb"*, to hand in your work you need to push it to GitHub classroom. You can do this via the build-in Git interface of VS Code, or by executing the following commands:
 ```bash
@@ -93,6 +92,7 @@ You can now push the final version of your assignment to the GitHub classroom.
 ## Matplotlib
 > - [Real Python - Python Plotting With Matplotlib (Guide)](https://realpython.com/python-matplotlib-guide/)
 > - [Practical Business Python - Effectively Using Matplotlib](https://pbpython.com/effective-matplotlib.html)
+
 
 
 
