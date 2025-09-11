@@ -32,7 +32,7 @@ Please check afterwards if the latest version of the code is actually pushed to 
 > We will be working in *development containers* that are completely isolated from your system's OS and software. One of the benefits of this approach is that you won't have to install any languages and dependencies on your machine and that everyone uses the exact same environment. This will benefit reproducibility and allows us to work cross-platform effortlessly.
 > 
 > 
-> ## Installation
+## Installation
 > We will be using Visual Studio Code (VS Code) as IDE. The container development functionality of VS Code provides us better reproducibility and will help tremendously in running the code on different machines without effort.
 > 
 > Steps to create our working environment:
@@ -90,6 +90,7 @@ Please check afterwards if the latest version of the code is actually pushed to 
 ## Matplotlib
 > - [Real Python - Python Plotting With Matplotlib (Guide)](https://realpython.com/python-matplotlib-guide/)
 > - [Practical Business Python - Effectively Using Matplotlib](https://pbpython.com/effective-matplotlib.html)
+
 
 
 
