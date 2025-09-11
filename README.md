@@ -52,22 +52,22 @@ In case you are unable to set it up in your local system, you can also access [l
 > Your can now open the notebook *"Lab1_Exercises.ipynb"* and start working on your assignment.
 
 ## Submission procedure
-```
+
 The repository must be pushed to the GitHub classroom before **September 30th, at 23:55**. The code must run without issues after we create the development container. This means that any pip packages that are required to run your notebook must be included in the *"requirements.txt"* file.
 
 Follow these steps to make sure all pip dependencies are correctly included:
-- Make sure VS Code is running within the development container (see next to last step at *"Installation"*).
-- Open the VS Code integrated terminal (Ctrl+`).
-- Execute: `pip freeze > requirements.txt`.
-    - `pip freeze` will print all currently installed pip packages with their version number pinned. `> requirements.txt` will redirect the output to a file (in this case *"requirements.txt"*).
+> - Make sure VS Code is running within the development container (see next to last step at *"Installation"*).
+> - Open the VS Code integrated terminal (Ctrl+`).
+> - Execute: `pip freeze > requirements.txt`.
+>     - `pip freeze` will print all currently installed pip packages with their version number pinned. `> requirements.txt` will redirect the output to a file (in this case *"requirements.txt"*).
 
 To test if all dependencies are included:
-- Click on ![Remote Window](docs/remote-window.png) in the lower left corner and select *"Rebuild Container"*.
-- Wait until the rebuild has finished.
-- Your notebook should now be able to run front to end without problems (if not -> FIX!).
+> - Click on ![Remote Window](docs/remote-window.png) in the lower left corner and select *"Rebuild Container"*.
+> - Wait until the rebuild has finished.
+> - Your notebook should now be able to run front to end without problems (if not -> FIX!).
 
 You can now push the final version of your assignment to the GitHub classroom.
-```
+
 ## Tips & Tricks
 > - You can install additional Python packages while within the Python container through: `pip install <your package>`.
 > - A light VS Code theme might be preferred while working with Python notebooks
@@ -90,6 +90,7 @@ You can now push the final version of your assignment to the GitHub classroom.
 ## Matplotlib
 > - [Real Python - Python Plotting With Matplotlib (Guide)](https://realpython.com/python-matplotlib-guide/)
 > - [Practical Business Python - Effectively Using Matplotlib](https://pbpython.com/effective-matplotlib.html)
+
 
 
 
