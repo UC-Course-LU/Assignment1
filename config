@@ -14,7 +14,7 @@ Host sshgw
     Hostname sshgw.leidenuniv.nl
     User ${USER} 
 
-Host U0065011 U0065030 U0065031 U0065040 U00650**
+Host U0065010 U0065020 U0065031 U0065040 U00650**
     User ${USER} 
     #ForwardX11Trusted yes
     ProxyJump sshgw
