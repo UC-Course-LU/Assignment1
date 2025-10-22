@@ -55,7 +55,7 @@ Here you will be asked  twice for your password because it has to jump through m
 
 ## Submission procedure
 
-The repository must be pushed to the GitHub classroom before **September 30th, at 23:55**. The code must run without issues after we create the development container. This means that any pip packages that are required to run your notebook must be included in the *"requirements.txt"* file.
+The repository must be pushed to the GitHub classroom before **January 16th, at 23:59**. The code must run without issues after we create the development container. This means that any pip packages that are required to run your notebook must be included in the *"requirements.txt"* file.
 
 Follow these steps to make sure all pip dependencies are correctly included:
 > - Make sure VS Code is running within the development container (see next to last step at *"Installation"*).
