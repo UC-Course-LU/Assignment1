@@ -1,6 +1,6 @@
 ﻿# Urban Computing Assignment 1
 
-This repository contains the first assignment for the Urban Computing course in fall 2025. The excersises can be found in *"Assignment1_Exercises.ipynb"*, to hand in your work you need to push it to GitHub classroom. You can do this via the build-in Git interface of VS Code, or by executing the following commands:
+This repository contains the first assignment for the Urban Computing course in fall 2026. The exercises can be found in *"Assignment1_Exercises.ipynb"*, to hand in your work you need to push it to GitHub classroom. You can do this via the build-in Git interface of VS Code, or by executing the following commands:
 ```bash
 git add .
 git commit -m "Commit message here"
@@ -31,7 +31,7 @@ Steps to create our working environment:
 >     - You can check if VS Code is running within the container in the bottom left corner. It should say *"Dev Container: Python 3"*.
 > - Reload VS Code to activate linters and formatters: Ctrl/Cmd+Shift+P -> Developer: Reload Window. Alternatively, you can just close and reopen VS Code.
 > 
-> Your can now open the notebook *"Lab1_Exercises.ipynb"* and start working on your assignment.
+> You can now open the notebook *"Assignment1_Exercises.ipynb"* and start working on your assignment.
 
 ### SSH Setup and Server Access Guide
 In case you are unable to set it up in your local system with docker, you can also access [liacs servers](https://rel.liacs.nl/issc/ssh-access). Make sure to properly update your requirements file with the python version as per docker's.
@@ -55,7 +55,7 @@ Here you will be asked  twice for your password because it has to jump through m
 
 ## Submission procedure
 
-The repository must be pushed to the GitHub classroom before **January 16th, at 23:59**. The code must run without issues after we create the development container. This means that any pip packages that are required to run your notebook must be included in the *"requirements.txt"* file.
+The repository must be pushed to the GitHub classroom before **September 29th, at 23:59**. The code must run without issues after we create the development container. This means that any pip packages that are required to run your notebook must be included in the *"requirements.txt"* file.
 
 Follow these steps to make sure all pip dependencies are correctly included:
 > - Make sure VS Code is running within the development container (see next to last step at *"Installation"*).
