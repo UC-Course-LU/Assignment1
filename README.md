@@ -1,4 +1,4 @@
-﻿# Urban Computing Assignment 1
+# Urban Computing Assignment 1
 
 This repository contains the first assignment for the Urban Computing course in fall 2026. The exercises can be found in *"Assignment1_Exercises.ipynb"*, to hand in your work you need to push it to GitHub classroom. You can do this via the build-in Git interface of VS Code, or by executing the following commands:
 ```bash
@@ -16,24 +16,70 @@ We will be working in *development containers* that are completely isolated from
 ## Installation
 We will be using Visual Studio Code (VS Code) as IDE. The container development functionality of VS Code provides us better reproducibility and will help tremendously in running the code on different machines without effort.
 
+Three setup options are supported:
+
+1. **Development container (recommended)** — uses Python 3.9.
+2. **Python virtual environment (`venv`)** — fallback option using Python 3.12.
+3. **LIACS servers over SSH** — if neither of the above works on your machine.
+
+### Option 1: Development container (recommended)
+
+**NOTE: installing Docker requires administrator rights.** If you do not have administrator rights or cannot use Docker, use the Python 3.12 `venv` option below.
+
 Steps to create our working environment:
 > - Make sure you have [Docker](https://docs.docker.com/get-docker/) installed on your system.
 >     - If you are running Linux, make sure to follow the additional post-installation step [Manage Docker as a non-root user](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user).
 > - Make sure you have [VS Code](https://code.visualstudio.com/) installed on your system.
 > - Clone and open this repository in VS Code.
 > - Click on the extensions icon in the toolbar: ![Extensions icon](docs/extensions.png).
-> - Search for the *"Remote Development"* extension and press the install button ![Install button](docs/install.png).
+> - Search for the *"Dev Containers"* extension and press the install button ![Install button](docs/install.png).
 > - (Optional) Search for the *"Docker"* extension and install this extension. It allows you to manage containers from within VS Code.
 > - You should now be able to see the *"Open a Remote Window"* ![Remote Window](docs/remote-window.png) button in the bottom left corner.
 > - Click this button and select *"Reopen in Container"*.
+>     - Alternatively, open the Command Palette (`Ctrl+Shift+P` on Windows/Linux, `Cmd+Shift+P` on macOS) and select *"Dev Containers: Reopen in Container"*.
 > - The container will now be build, which might take a while for the first time.
 > - After the container is built, VS Code will be running within the container.
 >     - You can check if VS Code is running within the container in the bottom left corner. It should say *"Dev Container: Python 3"*.
+>     - You can also verify the Python version from the VS Code terminal with `python --version`. The development container uses Python 3.9.
+> - If you need to rebuild the environment later, open the same bottom left menu and choose *"Rebuild Container"*.
 > - Reload VS Code to activate linters and formatters: Ctrl/Cmd+Shift+P -> Developer: Reload Window. Alternatively, you can just close and reopen VS Code.
 > 
 > You can now open the notebook *"Assignment1_Exercises.ipynb"* and start working on your assignment.
 
-### SSH Setup and Server Access Guide
+### Option 2: Python 3.12 virtual environment
+
+If you cannot use Docker, you can run the assignment locally using a standard Python 3.12 virtual environment. First, make sure [Python 3.12](https://www.python.org/downloads/) is installed on your system.
+
+#### Windows
+> Create the virtual environment:
+> ```powershell
+> py -3.12 -m venv .venv
+> ```
+> Activate it:
+> ```powershell
+> .venv\Scripts\Activate.ps1
+> ```
+
+#### macOS / Linux
+> Create the virtual environment:
+> ```bash
+> python3.12 -m venv .venv
+> ```
+> Activate it:
+> ```bash
+> source .venv/bin/activate
+> ```
+
+#### Install the dependencies
+> After activating the environment, run:
+> ```bash
+> python -m pip install --upgrade pip
+> python -m pip install -r requirements.txt
+> ```
+
+Then open the repository in VS Code, open *"Assignment1_Exercises.ipynb"*, and select the Python interpreter from the `.venv` environment as the notebook kernel.
+
+### Option 3: SSH Setup and Server Access Guide
 In case you are unable to set it up in your local system with docker, you can also access [liacs servers](https://rel.liacs.nl/issc/ssh-access). Make sure to properly update your requirements file with the python version as per docker's.
 #### 1. Download the SSH Config File
 > Make sure your downloaded config file includes your **user ID** as mentioned in the comments.
@@ -58,7 +104,7 @@ Here you will be asked  twice for your password because it has to jump through m
 The repository must be pushed to the GitHub classroom before **September 29th, at 23:59**. The code must run without issues after we create the development container. This means that any pip packages that are required to run your notebook must be included in the *"requirements.txt"* file.
 
 Follow these steps to make sure all pip dependencies are correctly included:
-> - Make sure VS Code is running within the development container (see next to last step at *"Installation"*).
+> - Make sure VS Code is running within the development container (see *"Option 1"* at *"Installation"*), or that your virtual environment is activated.
 > - Open the VS Code integrated terminal (Ctrl+`).
 > - Execute: `pip freeze > requirements.txt`.
 >     - `pip freeze` will print all currently installed pip packages with their version number pinned. `> requirements.txt` will redirect the output to a file (in this case *"requirements.txt"*).
@@ -92,23 +138,3 @@ You can now push the final version of your assignment to the GitHub classroom.
 ## Matplotlib
 > - [Real Python - Python Plotting With Matplotlib (Guide)](https://realpython.com/python-matplotlib-guide/)
 > - [Practical Business Python - Effectively Using Matplotlib](https://pbpython.com/effective-matplotlib.html)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
