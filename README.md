@@ -1,12 +1,6 @@
 # Urban Computing Assignment 1
 
-This repository contains the first assignment for the Urban Computing course in fall 2026. The exercises can be found in *"Assignment1_Exercises.ipynb"*, to hand in your work you need to push it to GitHub classroom. You can do this via the build-in Git interface of VS Code, or by executing the following commands:
-```bash
-git add .
-git commit -m "Commit message here"
-git push
-```
-Please check afterwards if the latest version of the code is actually pushed to the GitHub classroom.
+This repository contains the first assignment for the Urban Computing course in fall 2026. The exercises can be found in *"Assignment1_Exercises.ipynb"*. The completed assignment must be submitted through **Brightspace** as described in the *"Submission procedure"* section below.
 
 
 ## Docker and Visual Studio
@@ -15,6 +9,7 @@ We will be working in *development containers* that are completely isolated from
 
 ## Installation
 We will be using Visual Studio Code (VS Code) as IDE. The container development functionality of VS Code provides us better reproducibility and will help tremendously in running the code on different machines without effort.
+First, clone this repository and open the repository folder in VS Code. Then choose one of the setup options below.
 
 Three setup options are supported:
 
@@ -101,21 +96,38 @@ Here you will be asked  twice for your password because it has to jump through m
 
 ## Submission procedure
 
-The repository must be pushed to the GitHub classroom before **September 29th, at 23:59**. The code must run without issues after we create the development container. This means that any pip packages that are required to run your notebook must be included in the *"requirements.txt"* file.
+The assignment must be submitted through **Brightspace** before **September 29th, at 23:59**.
 
-Follow these steps to make sure all pip dependencies are correctly included:
-> - Make sure VS Code is running within the development container (see *"Option 1"* at *"Installation"*), or that your virtual environment is activated.
-> - Open the VS Code integrated terminal (Ctrl+`).
-> - Execute: `pip freeze > requirements.txt`.
->     - `pip freeze` will print all currently installed pip packages with their version number pinned. `> requirements.txt` will redirect the output to a file (in this case *"requirements.txt"*).
+Submit **one ZIP file** named using your student number, for example:
+```text
+s1234567_Assignment1.zip
+```
 
-To test if all dependencies are included:
-> - Click on ![Remote Window](docs/remote-window.png) in the lower left corner and select *"Rebuild Container"*.
-> - Wait until the rebuild has finished.
-> - Your notebook should now be able to run front to end without problems (if not -> FIX!).
+The ZIP file must contain:
+- Your completed *"Assignment1_Exercises.ipynb"*.
+- The *"requirements.txt"* file containing the Python packages and versions used for your solution.
 
-You can now push the final version of your assignment to the GitHub classroom.
+**Important**: Run the notebook before submission and **keep all cells visible in the submitted notebook**. Do not clear outputs before uploading.
 
+Do **not** include virtual environments, Git metadata, cache files, Docker images/containers, or unchanged files that were already provided with the assignment. In particular, do not submit folders such as *.venv/*, *.git/*, or *__pycache__/*.
+
+### Updating `requirements.txt`
+
+Before submission, make sure you are working inside the Python environment you used for the assignment (for example, the development container or your virtual environment). Do **not** run the following command from your system/global Python environment.
+
+Then run:
+```bash
+python -m pip freeze > requirements.txt
+```
+
+This records the installed Python packages and their versions so that we can reproduce your environment when grading.
+
+### Final check
+
+Before creating the ZIP file:
+1. Make sure the notebook runs from beginning to end without errors in the environment you used for the assignment.
+2. Save the notebook after running it so that the outputs are included.
+3. Check that the ZIP contains *"Assignment1_Exercises.ipynb"* and *"requirements.txt"* before uploading it to Brightspace.
 ## Tips & Tricks
 > - You can install additional Python packages while within the Python container through: `pip install <your package>`.
 > - A light VS Code theme might be preferred while working with Python notebooks
